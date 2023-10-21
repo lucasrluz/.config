@@ -1,1 +1,2 @@
-My dotfiles
+# .config
+Repositório com minhas configurações.
