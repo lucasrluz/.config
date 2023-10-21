@@ -1,5 +1,6 @@
 vim.cmd.colorscheme "catppuccin"
 vim.wo.number = true
+vim.wo.wrap = false
 
 vim.opt.scrolloff = 10
 
