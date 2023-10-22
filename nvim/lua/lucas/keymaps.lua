@@ -17,4 +17,6 @@ map("n", "<C-k>", "<C-w>k") -- up window
 map("n", "<C-j>", "<C-w>j") -- down window
 map("n", "<C-l>", "<C-w>l") -- right window
 
-
+-- Indetation
+map("v", "<", "<gv^")
+map("v", ">", ">gv^")
