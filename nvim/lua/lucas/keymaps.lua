@@ -6,10 +6,10 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
 -- Resize with arrows when using multiple windows
-map("n", "<C-Up>", ":resize -2<CR>")
-map("n", "<c-down>", ":resize +2<cr>")
-map("n", "<c-right>", ":vertical resize -2<cr>")
-map("n", "<c-left>", ":vertical resize +2<cr>")
+map("n", "<M-k>", ":resize -2<CR>")
+map("n", "<M-j>", ":resize +2<cr>")
+map("n", "<M-l>", ":vertical resize -2<cr>")
+map("n", "<M-h>", ":vertical resize +2<cr>")
 
 -- Better window navigation
 map("n", "<C-h>", "<C-w>h") -- left window
