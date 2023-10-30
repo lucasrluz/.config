@@ -10,3 +10,15 @@ nvim/*
 !alacritty/
 alacritty/*
 !alacritty/**
+
+!i3/
+i3/*
+!i3/**
+
+!i3status
+i3status/*
+!i3status/**
+
+!start
+start/*
+!start/**
