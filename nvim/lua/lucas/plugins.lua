@@ -12,8 +12,32 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+	-- Zen Mode
+	{
+	  "folke/zen-mode.nvim",
+	  opts = {
+		  window = {
+			width = 80, -- width of the Zen window
+			height = 1, -- height of the Zen window	
+		  },
+	  }
+	},
+
 	-- Theme
-	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+	{
+		"catppuccin/nvim",
+		name = "catppuccin",
+		priority = 1000,
+		opts = {	
+			color_overrides = {
+				mocha = {
+					base = "#000000",
+					mantle = "#000000",
+					crust = "#000000",
+				},
+			},
+		},
+	},
 
 	-- LSP
 	"neovim/nvim-lspconfig",
