@@ -11,7 +11,10 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({
+require("lazy").setup({	
+	-- Lualine
+	"nvim-lualine/lualine.nvim",
+
 	-- Zen Mode
 	{
 	  "folke/zen-mode.nvim",
@@ -31,12 +34,18 @@ require("lazy").setup({
 		opts = {	
 			color_overrides = {
 				mocha = {
-					base = "#000000",
-					mantle = "#000000",
-					crust = "#000000",
+					base = "#141414",
+					mantle = "#141414",
+					crust = "#141414",
 				},
 			},
 		},
+	},
+	{
+	  "folke/tokyonight.nvim",
+	  lazy = false,
+	  priority = 1000,
+	  opts = {},
 	},
 
 	-- LSP
