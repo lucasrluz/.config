@@ -70,7 +70,7 @@ floating_modifier $mod
 bindsym $mod+Return exec alacritty
 
 # Inicia dmenu
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id dmenu_run -fn 'JetBrains Mono-10'
 
 # Fecha janela em foco
 bindsym $mod+q kill
