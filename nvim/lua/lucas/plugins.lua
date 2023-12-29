@@ -28,24 +28,8 @@ require("lazy").setup({
 
 	-- Theme
 	{
-		"catppuccin/nvim",
-		name = "catppuccin",
-		priority = 1000,
-		opts = {	
-			color_overrides = {
-				mocha = {
-					base = "#141414",
-					mantle = "#141414",
-					crust = "#141414",
-				},
-			},
-		},
-	},
-	{
-	  "folke/tokyonight.nvim",
-	  lazy = false,
-	  priority = 1000,
-	  opts = {},
+	  "felipeagc/fleet-theme-nvim",
+	  config = function() vim.cmd("colorscheme fleet") end
 	},
 
 	-- LSP
