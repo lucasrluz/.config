@@ -1,18 +1,25 @@
+import = [
+    #"~/.config/alacritty/themes/amy-dark.toml"
+    "~/.config/alacritty/themes/amy-light.toml"
+]
+
 [font]
 size = 15
 
 [font.bold]
-family = "JetBrains Mono"
+family = "JetBrains Mono NL"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrains Mono"
+family = "JetBrains Mono NL"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetBrains Mono"
+family = "JetBrains Mono NL"
 style = "Italic"
 
 [font.normal]
-family = "JetBrains Mono"
+family = "JetBrains Mono NL"
 style = "Normal"
+
+
