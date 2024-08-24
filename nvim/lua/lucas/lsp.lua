@@ -6,6 +6,8 @@ require("mason-lspconfig").setup()
 local lspconfig = require("lspconfig")
 
 lspconfig.jdtls.setup {}
+lspconfig.rust_analyzer.setup {}
+lspconfig.clangd.setup {}
 
 vim.keymap.set('n', '<space>gl', vim.diagnostic.open_float)
 

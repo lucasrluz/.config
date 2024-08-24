@@ -27,9 +27,20 @@ require("lazy").setup({
 	},
 
 	-- Theme
+	{ 'lucasrluz/amy' },
+	--{ "rose-pine/neovim", name = "rose-pine" },
+	{ 'datsfilipe/vesper.nvim' },	
+
 	{
-	  "felipeagc/fleet-theme-nvim",
-	  config = function() vim.cmd("colorscheme fleet") end
+	  'jesseleite/nvim-noirbuddy',
+	  dependencies = {
+		{ 'tjdevries/colorbuddy.nvim' }
+	  },
+		  lazy = false,
+		  priority = 1000,
+		  opts = {
+			-- All of your `setup(opts)` will go here
+	  },
 	},
 
 	-- LSP
